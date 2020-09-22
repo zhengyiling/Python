@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 
 #Q1
 #A researcher has gathered thousands of news articles. 
@@ -18,8 +16,6 @@
 # Do not let periods or commas affect what is matched. “It is closed.” would be included when the keyword is “closed”. 
 # But you can assume there are no other types of punctuation.
 
-
-# In[80]:
 
 
 #Lin's solution
@@ -42,21 +38,21 @@ def word_search(doc_list, keyword):
             
 
 
-# In[81]:
+
 
 
 doc_list = ["The Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
 word_search(doc_list, 'casino')
 
 
-# In[82]:
+
 
 
 doc_list=['The Learn Python Challenge Casino', 'They bought a car, and a horse', 'Casinoville?']
 word_search(doc_list, 'car')
 
 
-# In[84]:
+
 
 
 #Kaggle's solution
@@ -76,21 +72,21 @@ def word_search(documents, keyword):
     return indices
 
 
-# In[85]:
+
 
 
 doc_list = ["The Learn Python Challenge Casino.", "They bought a car", "Casinoville"]
 word_search(doc_list, 'casino')
 
 
-# In[86]:
+
 
 
 doc_list=['The Learn Python Challenge Casino', 'They bought a car, and a horse', 'Casinoville?']
 word_search(doc_list, 'car')
 
 
-# In[ ]:
+
 
 
 
