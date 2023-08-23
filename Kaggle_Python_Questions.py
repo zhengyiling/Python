@@ -31,10 +31,10 @@ def word_search(doc_list, keyword):
     >>> [0]
     """
     res = []
-    for i in range(len(doc_list)-1):
+    for i in range(len(doc_list)):
         if keyword.lower() in doc_list[i].lower().strip('.,').split():
-                res.append(i)
-        return res
+            res.append(i)
+    return res
             
 
 
